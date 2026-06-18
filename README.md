@@ -95,8 +95,8 @@ Frontend runs on `http://localhost:3000`, backend on `http://localhost:5000` by 
 
 | | |
 |---|---|
-| Frontend | [atlas-frontend.vercel.app](https://atlas-frontend.vercel.app) |
-| Backend | [atlas-backend.onrender.com](https://atlas-backend.onrender.com) |
+| Frontend | [atlas-frontend.vercel.app](https://atlas-q1.vercel.app) |
+| Backend | [atlas-backend.onrender.com](https://atlas-q1.onrender.com) |
 
 > Free-tier Render instances spin down after inactivity — first request may take ~30s.
 
