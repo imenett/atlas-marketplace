@@ -1,0 +1,33 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Atlas Frontend — Documentation",
+  "entryPoints": [
+    "lib/api.ts",
+    "lib/auth-client.ts",
+    "contexts/AuthContext.tsx",
+    "contexts/CartContext.tsx",
+    "contexts/AuthModalContext.tsx",
+    "components/layout/Header.tsx",
+    "components/providers.tsx"
+  ],
+  "out": "docs/jsdoc",
+  "exclude": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/docs/**"
+  ],
+  "includeVersion": false,
+  "readme": "none",
+  "tsconfig": "./tsconfig.json",
+  "categorizeByGroup": true,
+  "defaultCategory": "Autres",
+  "categoryOrder": [
+    "Bibliothèques",
+    "Contextes",
+    "Composants",
+    "Autres"
+  ],
+  "navigationLinks": {
+    "Documentation interne": "../DOCUMENTATION_INTERNE.md"
+  }
+}
